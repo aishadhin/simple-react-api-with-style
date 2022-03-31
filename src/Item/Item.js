@@ -13,7 +13,7 @@ const Item = (props) => {
             <h3>Country Name: {props.country.name.common}</h3>
             <h4>Area Code: {props.country.area}</h4>
             <img src={props.country.flags.png} alt="" />
-            <button onClick={()=>add(id)}>Add To Storage</button>
+            <button className='btn' onClick={()=>add(id)}>Add To Storage</button>
         </div>
     );
 };
